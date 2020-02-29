@@ -1,0 +1,502 @@
+@font-face {
+  font-family: "myfont";
+  src: url("../font/Larish\ Neue\ Semibold.woff2") format("woff");
+}
+@font-face {
+  font-family: "myfont2";
+  src: url("../font/LarishNeueSemibold.woff") format("woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: myfont;
+}
+.california {
+  height: 100vh;
+  background: #000;
+}
+.line {
+  width: 0.1rem;
+  height: 22rem;
+  box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 0.4);
+}
+.zentriert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 11rem;
+  text-align: center;
+  color: #fff;
+  line-height: 8.5rem;
+}
+h6 {
+  font-size: 2rem;
+  font-family: "Work Sans";
+  color: #fff;
+  text-align: center;
+  line-height: 6rem;
+}
+.calling {
+  color: #000;
+  -webkit-text-stroke: 2px #fff;
+}
+.dedicated {
+  font-size: 2rem;
+  font-family: "Work Sans";
+  color: #fff;
+  line-height: 5.5rem;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+.bear {
+  margin: 20rem 10rem 0rem;
+}
+.button {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: "Work Sans";
+  border: 2px solid #fff;
+  padding: 2rem 5rem;
+  margin: 20rem 10rem 0rem;
+  transition: 0.5s ease;
+}
+.button:hover {
+  color: #000;
+  background: #fff;
+}
+h2 {
+  font-size: 11rem;
+  margin-left: 10rem;
+  color: #fff;
+}
+.last_year {
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  background: #000;
+}
+.last_year span {
+  display: block;
+}
+.map {
+  height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+}
+h5 {
+  font-size: 2.5rem;
+  font-family: "Work Sans";
+  margin-left: 10rem;
+  color: #fff;
+  line-height: 1rem;
+}
+.map1 {
+  height: 85%;
+}
+.wild {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 85%;
+}
+.wild h2 {
+  line-height: 15rem;
+}
+.stuck {
+  height: 150vh;
+}
+
+.stuck span {
+  display: block;
+}
+.text p {
+  font-size: 1.8rem;
+  font-family: "Work Sans";
+  line-height: 4rem;
+}
+.text h2 {
+  font-size: 10rem;
+  margin-left: 0;
+  color: #000;
+  line-height: 9rem;
+}
+.text {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  height: 50%;
+  position: relative;
+}
+.bild1 {
+  width: 24%;
+  position: absolute;
+  right: 10%;
+  top: -215%;
+}
+.bild2 {
+  position: absolute;
+  width: 20%;
+  top: -160%;
+  left: 6%;
+}
+.bild3 {
+  position: absolute;
+  width: 20%;
+  right: 0%;
+  top: -80%;
+}
+.bild4 {
+  position: absolute;
+  width: 25%;
+  top: -200%;
+  left: 15%;
+}
+.bilder {
+  height: 100vh;
+}
+
+.bild5 {
+  position: absolute;
+  width: 25%;
+  right: 12%;
+  top: -150%;
+}
+.bild6 {
+  position: absolute;
+  width: 20%;
+  top: -65%;
+  left: 3%;
+}
+.bild7 {
+  position: absolute;
+  width: 30%;
+  bottom: 10%;
+  right: 25%;
+}
+.bilder span {
+  display: block;
+}
+.bilder p {
+  font-size: 2rem;
+  font-family: "Work Sans";
+  line-height: 4rem;
+}
+.text2 {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.golden {
+  height: 150vh;
+  background: #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.linker_text {
+  display: flex;
+  align-items: center;
+}
+.linker_text span {
+  display: block;
+}
+.rechter_text span {
+  display: block;
+}
+.linker_text p {
+  font-size: 1.8rem;
+  font-family: "Work Sans";
+  line-height: 4rem;
+  color: #fff;
+  margin-left: 50%;
+}
+.linker_text h2 {
+  font-size: 8rem;
+  line-height: 7rem;
+  margin-left: 50%;
+  color: #fff;
+}
+.rechter_text {
+  display: flex;
+  align-items: center;
+}
+.rechter_text h4 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.rechter_text p {
+  font-size: 1.8rem;
+  font-family: "Work Sans";
+  line-height: 4rem;
+  color: #fff;
+}
+.bild_bär {
+  width: 100%;
+  margin-bottom: -75rem;
+  margin-left: 20%;
+}
+.bild_seite {
+  display: flex;
+  align-items: flex-end;
+}
+.seiten_bild {
+  width: 50%;
+  margin-bottom: -10rem;
+  margin-left: 13%;
+  z-index: 10;
+}
+.poppy {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  overflow: hidden;
+}
+.circle {
+  grid-column: 2/3;
+}
+.kreis {
+  width: 70%;
+  margin-left: 50%;
+  margin-top: -20%;
+  z-index: -10;
+  position: relative;
+
+  animation-name: spin;
+  animation-duration: 9000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.linker_text2 {
+  display: flex;
+  align-items: center;
+}
+
+.linker_text2 span {
+  display: block;
+}
+.rechter_text2 span {
+  display: block;
+}
+.linker_text2 p {
+  font-size: 1.8rem;
+  font-family: "Work Sans";
+  line-height: 4rem;
+  color: #000;
+  margin-left: 50%;
+}
+.linker_text2 h2 {
+  font-size: 8rem;
+  line-height: 7rem;
+  margin-left: 50%;
+  color: #000;
+}
+.rechter_text2 {
+  display: flex;
+  align-items: center;
+}
+.rechter_text2 h4 {
+  font-size: 2.5rem;
+  color: #000;
+}
+
+.rechter_text2 p {
+  font-size: 1.8rem;
+  font-family: "Work Sans";
+  line-height: 4rem;
+  color: #000;
+}
+.zwei_bilder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.frau {
+  width: 50%;
+  margin-left: -70%;
+  margin-top: 20%;
+}
+.rose {
+  width: 100%;
+  margin-left: 70%;
+  margin-bottom: 15%;
+}
+.laufschrift {
+  background: #000;
+  height: 100vh;
+}
+.join {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60%;
+}
+
+.laufschrift p {
+  font-size: 2rem;
+  font-family: "Work Sans";
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+.laufschrift h2 {
+  font-size: 3.5rem;
+  line-height: 5rem;
+  margin-bottom: 5rem;
+}
+.laufschrift h2 span {
+  display: block;
+}
+.button2 {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: "Work Sans";
+  border: 2px solid #fff;
+  padding: 2rem 5rem;
+  margin-left: 10rem;
+  width: 7rem;
+  transition: 0.5s ease;
+}
+.button2:hover {
+  color: #000;
+  background: #fff;
+}
+.social {
+}
+.sf h4 {
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Work Sans";
+  margin-top: 2rem;
+}
+.sf h5 {
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 0rem;
+  font-family: "Work Sans";
+  margin-top: 2rem;
+}
+
+.banner h3 span {
+  color: #fff;
+  -webkit-text-stroke: 2px #000;
+}
+.banner {
+  width: 90%;
+  display: flex;
+  z-index: -100;
+  transform: rotate(40deg) translateY(-7rem) translateX(50rem);
+}
+footer {
+  width: 100%;
+  height: 110vh;
+  overflow: hidden;
+  position: relative;
+  background: #000;
+}
+.banner h3 {
+  color: #000;
+  font-size: 9rem;
+  line-height: 9.5rem;
+  white-space: nowrap;
+  background: #fff;
+  display: block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+
+  animation: ticker 40s linear infinite;
+  animation-delay: -40s;
+}
+.banner h3:nth-of-type(2) {
+  padding-left: 2rem;
+  animation: ticker2 40s linear infinite;
+  animation-delay: -20.05s;
+}
+.red_cross {
+  margin-right: -10rem;
+}
+.sf {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15rem;
+  margin-left: 10rem;
+}
+.fb {
+  width: 12%;
+}
+.ig {
+  width: 12%;
+  margin: 0 0.5rem;
+}
+.in {
+  width: 13%;
+}
+.sf_logo {
+  width: 20%;
+}
+.red_logo {
+  width: 20%;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes ticker2 {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+@media (.max-width: 1100px) {
+  html {
+    font-size: 50.5%;
+  }
+  .last_year {
+    height: 70vh;
+  }
+  h2 {
+  }
+}
+@media (max-width: 900px) {
+  h2 {
+    margin-left: 5rem;
+  }
+  .map {
+    height: 70vh;
+  }
+}
